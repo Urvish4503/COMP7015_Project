@@ -1,0 +1,12 @@
+TRAINSYSTEM-SAVE 1
+CARRIAGE|102|Central|bike-rack
+CARRIAGE|103|Central|first-class
+CARRIAGE|104|Central|economy
+CARRIAGE|201|Parramatta|quiet
+CARRIAGE|202|Parramatta|wheelchair-access
+CARRIAGE|204|Bondi Junction|charging-port
+CARRIAGE|301|Hornsby|economy
+CARRIAGE|302|Redfern|dining
+TRAIN|1|Central|103,102
+TRAIN|2|Parramatta|202,201
+TRAIN|3|Bondi Junction|204
