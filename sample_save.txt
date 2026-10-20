@@ -1,0 +1,19 @@
+TRAINSYSTEM-SAVE 1
+# Sample TrainSystem save file (format version 1).
+# Lines starting with '#' are comments; blank lines are ignored.
+#
+# CARRIAGE|id|station|configuration
+#   one line per carriage, attached to a train or not
+CARRIAGE|101|Central|toilet
+CARRIAGE|102|Central|bike-rack
+CARRIAGE|103|Central|first-class
+CARRIAGE|104|Central|economy
+CARRIAGE|201|Parramatta|quiet
+CARRIAGE|202|Parramatta|wheelchair-access
+CARRIAGE|301|Hornsby|economy
+CARRIAGE|302|Redfern|dining
+
+# TRAIN|trainId|station|carriage IDs from front to back
+#   every carriage listed must be at the train's station
+TRAIN|1|Central|103,101,102
+TRAIN|2|Parramatta|202,201
